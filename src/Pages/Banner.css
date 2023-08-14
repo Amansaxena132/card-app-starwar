@@ -1,0 +1,45 @@
+/* Banner.css */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(198, 206, 211);
+    width: 100%; /* Set to 100% to span full width */
+    height: 100vh; /* Set to 100vh to cover full viewport height */
+}
+  
+  .banner img {
+    width: 100%; /* Set to 100% to span full width */
+    max-height: 500px; /* Limit the maximum height */
+    object-fit: cover;
+  }
+  
+  .banner-content {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .banner-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+  
+  .banner-content button {
+    font-size: 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .banner-content button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Add additional styling for the button on hover or other states */
+  

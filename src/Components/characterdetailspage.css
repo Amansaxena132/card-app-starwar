@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  text-decoration-color: color-mix(in xyz, color percentage, color percentage);
+}
+
+h3 {
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.character-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  border: radius 10px;
+}
+
+.containers {
+  text-align: center;
+}
+
+p {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
